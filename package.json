@@ -7,11 +7,11 @@
     "test": "",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "npm run lint --fix",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
-      "pre-comment": "lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
