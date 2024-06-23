@@ -6,7 +6,8 @@
   "scripts": {
     "test": "",
     "lint": "stylelint './**/*.scss'",
-    "lint:fix": "npm run lint --fix"
+    "lint:fix": "npm run lint --fix",
+    "prepare": "husky"
   },
   "husky": {
     "hooks": {
