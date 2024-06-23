@@ -1,0 +1,44 @@
+/**
+ *
+ * Default font sizes for heading and texts
+ *
+ */
+
+
+/*=============================================
+=            Body font sizes                  =
+=============================================*/
+
+$body-font-size: var(--dse-body-font-size, $fs-sm) !default;
+$body-font-weight: var(--dse-body-font-size, $fw-normal) !default;
+
+/*=====  End of Body text sizes        ======*/
+
+
+/*=============================================
+=            Heading font sizes               =
+=============================================*/
+
+$h1-font-size: var(--dse-h1-font-size, $h-1) !default;
+$h2-font-size: var(--dse-h2-font-size, $h-2) !default;
+$h3-font-size: var(--dse-h3-font-size, $h-3) !default;
+$h4-font-size: var(--dse-h4-font-size, $h-4) !default;
+$h5-font-size: var(--dse-h5-font-size, $h-5) !default;
+$h6-font-size: var(--dse-h6-font-size, $h-6) !default;
+
+
+/*=============================================
+=            Heading font weight              =
+=============================================*/
+
+$h1-font-weight: var(--dse-h1-font-weight, $fw-1) !default;
+$h2-font-weight: var(--dse-h2-font-weight, $fw-2) !default;
+$h3-font-weight: var(--dse-h3-font-weight, $fw-3) !default;
+$h4-font-weight: var(--dse-h4-font-weight, $fw-4) !default;
+$h5-font-weight: var(--dse-h5-font-weight, $fw-5) !default;
+$h6-font-weight: var(--dse-h6-font-weight, $fw-6) !default;
+
+/*=====  End of Heading font weidht    ======*/
+
+
+
