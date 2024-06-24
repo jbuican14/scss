@@ -7,21 +7,17 @@
     "test": "",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "npm run lint --fix",
-    "prepare": "husky"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.scss": "npm lint:fix"
+    "prepare": "husky",
+    "build": "node src/scripts/build.js",
+    "node:sass": "node-sass --output-style uncompressed ./src/global.scss>main.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "normalize-scss": "^8.0.0"
+    "node-sass": "^9.0.0",
+    "normalize-scss": "^7.0.1",
+    "sass": "^1.77.6"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "^5.0.0",
